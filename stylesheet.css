@@ -1,0 +1,54 @@
+/*ヘッダー部分始まり*/
+header{
+ background-color: #250d00;
+ height: 230px;
+ width: auto;
+}
+
+.headerlogo{
+ height: 200px;
+ width:200px;
+ float: left;
+ padding: 15px;
+}
+
+ul{
+ list-style: none;
+}
+
+.title{
+ color: #752100;
+ float: right;
+ padding: 15px 250px 15px 30px;
+}
+
+.maintitle{
+ font-size: 60px;
+}
+
+.subtitle{
+ font-size: 40px;
+}
+/*ヘッダー部分終わり*/
+
+/*フッター部分始まり*/
+footer{
+ background-color: #94a540;
+ height: 110px;
+}
+
+.footerlogo{
+ height: 100px;
+ width: 100px;
+ float: left;
+ padding-left: 30px;
+}
+
+.footercontent{
+ color: #f5b1aa;
+ font-size: 15px;
+ float: right;
+ padding-right: 15px;
+ padding-top: 8px;
+}
+/*フッター部分終わり*/
