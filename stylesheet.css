@@ -1,4 +1,7 @@
+@charaset "UTF-8";
+
 /*ヘッダー部分始まり*/
+
 header{
  background-color: #250d00;
  height: 230px;
@@ -19,22 +22,25 @@ ul{
 .title{
  color: #752100;
  float: right;
- padding: 15px 250px 15px 30px;
-}
+ text-align: center;
+ padding: 30px 350px 0px 100px;
+ }
 
 .maintitle{
- font-size: 60px;
+ font-size: 60px; 
 }
 
 .subtitle{
  font-size: 40px;
 }
+
 /*ヘッダー部分終わり*/
 
 /*フッター部分始まり*/
+
 footer{
  background-color: #94a540;
- height: 110px;
+ height: 150px;
 }
 
 .footerlogo{
@@ -51,4 +57,69 @@ footer{
  padding-right: 15px;
  padding-top: 8px;
 }
+
 /*フッター部分終わり*/
+
+html, body{
+ margin:0px;
+ padding:0px;
+ height:100%;
+}
+
+/*セクション部分始まり*/
+
+section{
+ background-color: #ff0000;
+ height: 1000px;
+ padding-top:1px;
+}
+
+.catchcopy{
+ color: #ff7a7a;
+ font-size: 35px;
+ text-align: center;
+ animation: horror ease 3.0s infinite alternate;
+}
+
+@keyframes horror {
+ 0%{opacity: 0.0;}
+ 100%{opacity: 1.0;}
+}
+
+video{
+ max-width: 100%;
+}
+
+.maindvd{
+ width: 500px;
+ height: 350px;
+ margin: 0px auto
+}
+
+.hr1dvd{
+ width: 500px;
+ height: 350px;
+ float: left;
+ padding-left: 30px;
+}
+
+
+.ts1dvd{
+ width: 500px;
+ height: 350px;
+ float: right;
+ padding-right: 30px;
+}
+
+.th{
+ text-align: center;
+}
+
+.promotion{
+ font-size: 30px;
+ padding-top: 330px;
+ text-align: center;
+ color:#9effce;
+}
+
+/*セクション部分終わり*/
