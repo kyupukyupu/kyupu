@@ -13,14 +13,11 @@ header{
  width:200px;
  float: left;
  padding: 15px;
-}
-
-ul{
- list-style: none;
+ font-weight: 900p;
 }
 
 .title{
- color: #752100;
+ color: #d3381c;
  float: right;
  text-align: center;
  padding: 30px 350px 0px 100px;
@@ -47,16 +44,22 @@ footer{
  height: 100px;
  width: 100px;
  float: left;
- padding-left: 30px;
+ padding-left: 40px;
+ padding-top: 20px;
 }
 
 .footercontent{
  color: #f5b1aa;
  font-size: 15px;
  float: right;
- padding-right: 15px;
+ padding-right: 30px;
  padding-top: 8px;
 }
+
+ul.planningexecution {
+ list-style: none;
+}
+
 
 /*フッター部分終わり*/
 
@@ -69,8 +72,8 @@ html, body{
 /*セクション部分始まり*/
 
 section{
- background-color: #ff0000;
- height: 1000px;
+ background-color: #ff0000; /*#ff0000*/
+ height: 1500px;
  padding-top:1px;
 }
 
@@ -93,7 +96,7 @@ video{
 .maindvd{
  width: 500px;
  height: 350px;
- margin: 0px auto
+ margin: 0px auto;
 }
 
 .hr1dvd{
@@ -120,6 +123,45 @@ video{
  padding-top: 330px;
  text-align: center;
  color:#9effce;
+}
+
+.hrth, .hrtitle{
+ color: #434da2;
+ text-align: center;
+}
+
+.tsth, tstitle{
+ color: #00afcc;
+ text-align: center;
+}
+
+.hrthtitle, .tsthtitle{
+ border: solid 5px #ffffff;
+ font-weight: 900;
+}
+
+.th{
+ color: #aaff56;
+}
+
+.information{
+ font-size:20px;
+ color: #e6b422
+ text-align: center;
+}
+
+.table{
+ margin: 0 auto;
+ width: 350px;
+ padding-left: 150px;
+}
+
+.thtable{
+ border-color: #ffbcff;
+}
+
+.allinformation{
+ padding-top: 50px;
 }
 
 /*セクション部分終わり*/
